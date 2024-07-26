@@ -35,4 +35,6 @@ export { InputWidget } from './components/InputWidget/InputWidget';
 export { Swatches } from './components/Swatches';
 export { ExtraThumb } from '@panels/Panel3/ExtraThumb';
 
+export { RoehnSlider } from '@sliders/HSB/RoehnSlider';
+
 export * from '@types';
