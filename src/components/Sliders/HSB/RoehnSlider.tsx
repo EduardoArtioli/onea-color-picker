@@ -3,11 +3,11 @@ import { StyleSheet } from 'react-native';
 import { Gesture, GestureDetector } from 'react-native-gesture-handler';
 import Animated, { useAnimatedStyle, useSharedValue, withTiming } from 'react-native-reanimated';
 
-import usePickerContext from 'reanimated-color-picker/lib/src/AppContext';
-import Thumb from 'reanimated-color-picker/lib/src/components/Thumb/Thumb';
-import { clamp, ConditionalRendering, getStyle, HSVA2HSLA_string, isRtl } from 'reanimated-color-picker/lib/src/utils';
+import usePickerContext from '@context';
+import Thumb from '@thumb';
+import { clamp, ConditionalRendering, getStyle, HSVA2HSLA_string, isRtl } from '@utils';
 
-import type { SliderProps } from 'reanimated-color-picker/lib/src/types';
+import type { SliderProps } from '@types';
 import type { LayoutChangeEvent } from 'react-native';
 import type { PanGestureHandlerEventPayload } from 'react-native-gesture-handler';
 
