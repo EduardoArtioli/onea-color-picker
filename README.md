@@ -1,3 +1,7 @@
+# This fork is not supposed to work, it was used to validate a custom gradient to the sliders.
+
+# Use the Patch reanimated-color-picker+3.0.4.patch insted, do not add to this repo to your package.json
+
 :red_circle: :green_circle: :large_blue_circle:
 
 # Reanimated Color Picker
